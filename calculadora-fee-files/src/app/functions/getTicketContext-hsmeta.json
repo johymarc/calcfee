@@ -1,0 +1,12 @@
+{
+  "uid": "getTicketContext",
+  "type": "app-function",
+  "config": {
+    "entrypoint": "/app/functions/getTicketContext.js",
+    "endpoint": {
+      "path": "/getTicketContext",
+      "methods": ["POST"]
+    },
+    "secretKeys": ["HUBSPOT_APP_TOKEN_FILES"]
+  }
+}

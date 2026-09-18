@@ -1,0 +1,11 @@
+{
+  "uid": "calculadora-fee-files-card",
+  "type": "card",
+  "config": {
+    "name": "Calculadora de FEE files",
+    "description": "Calculadora de FEE para tickets de HubSpot (File Manager)",
+    "location": "crm.record.tab",
+    "entrypoint": "/app/cards/CalculadoraFee.jsx",
+    "objectTypes": ["TICKETS"]
+  }
+}

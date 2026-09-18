@@ -1,0 +1,8 @@
+{
+  "name": "calculadora-fee-functions",
+  "version": "1.0.0",
+  "description": "Serverless functions for Calculadora de FEE",
+  "dependencies": {
+    "@hubspot/api-client": "^11.0.0"
+  }
+}

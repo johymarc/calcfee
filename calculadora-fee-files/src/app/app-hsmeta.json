@@ -1,0 +1,22 @@
+{
+  "uid": "calculadora-fee-files-app",
+  "type": "app",
+  "config": {
+    "name": "Calculadora de FEE (File Manager)",
+    "description": "Calculadora de FEE para tickets de HubSpot, usando CSV do File Manager",
+    "auth": {
+      "type": "static",
+      "requiredScopes": [
+        "oauth",
+        "crm.objects.tickets.read",
+        "crm.objects.tickets.write"
+      ]
+    },
+    "permittedUrls": {
+      "fetch": [],
+      "iframe": [],
+      "img": []
+    },
+    "distribution": "private"
+  }
+}

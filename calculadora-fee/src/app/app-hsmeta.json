@@ -1,0 +1,25 @@
+{
+  "uid": "calculadora-fee-app",
+  "type": "app",
+  "config": {
+    "name": "Calculadora de FEE",
+    "description": "Calculadora de FEE para tickets de HubSpot",
+    "auth": {
+      "type": "static",
+      "requiredScopes": [
+        "oauth",
+        "crm.objects.tickets.read",
+        "crm.objects.tickets.write",
+        "crm.objects.companies.read",
+        "hubdb.tables.read",
+        "hubdb.rows.read"
+      ]
+    },
+    "permittedUrls": {
+      "fetch": [],
+      "iframe": [],
+      "img": []
+    },
+    "distribution": "private"
+  }
+}

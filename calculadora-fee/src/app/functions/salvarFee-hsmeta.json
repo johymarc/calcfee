@@ -1,0 +1,12 @@
+{
+  "uid": "salvarFee",
+  "type": "app-function",
+  "config": {
+    "entrypoint": "/app/functions/salvarFee.js",
+    "endpoint": {
+      "path": "/salvarFee",
+      "methods": ["POST"]
+    },
+    "secretKeys": ["HUBSPOT_APP_TOKEN"]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "calculadora-fee-ui",
+  "version": "1.0.0",
+  "description": "UI Extension for Calculadora de FEE",
+  "dependencies": {
+    "@hubspot/ui-extensions": "^0.14.0",
+    "react": "^18.0.0"
+  }
+}

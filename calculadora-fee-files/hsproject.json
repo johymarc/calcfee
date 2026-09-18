@@ -1,0 +1,13 @@
+{
+  "name": "calculadora-fee-files",
+  "label": "Calculadora de FEE (File Manager)",
+  "version": "1.0.0",
+  "srcDir": "src",
+  "platformVersion": "2025.2",
+  "components": [
+    {
+      "type": "app",
+      "path": "src/app"
+    }
+  ]
+}

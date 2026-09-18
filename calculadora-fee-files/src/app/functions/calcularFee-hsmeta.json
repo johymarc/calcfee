@@ -1,0 +1,11 @@
+{
+  "uid": "calcularFee",
+  "type": "app-function",
+  "config": {
+    "entrypoint": "/app/functions/calcularFee.js",
+    "endpoint": {
+      "path": "/calcularFee",
+      "methods": ["POST"]
+    }
+  }
+}
